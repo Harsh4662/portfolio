@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    display:flex;
+
+}
+.sidebar{
+    background-color: rgb(163, 159, 159);
+    /* width: 434px; */
+    height: 130vh; 
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.info{
+    /* background-color:green; */
+    height: 58vh;
+    width:80vw;
+    margin: auto;
+    margin-top: 147px;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+  
+    height: 58vh;
+}
+.devinfo{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 15px;
+}
+.btn{
+    margin: 20px 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    /* margin-right: 15px; */
+}
+.btn-m{
+    margin: 10px 15px;
+    margin-left: -5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.btn-sm{
+    margin: 10px 15px;
+    margin-left: -5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+.btn:hover{
+   background-color:antiquewhite;
+   color: cornflowerblue;
+}
+.contactform {
+    padding: 100px 0px 0px 44px;
+    /* margin-left: 15px; */
+}
+.contactform h1{
+    padding-bottom: 20px;
+
+}
+.contactform form div{
+    padding: 10px 0;
+  
+}
+.form-group{
+    display: flex ;
+    flex-direction: column;
+    font-size: larger;
+}
+.form-group input{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 7px;
+}
+.form-check input{
+    width: 15px;
+    height: 12px;
+    margin-top: 5px;
+}
+ h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 23px;
+}
+.main{
+    margin-left: 65px;
+}
+.flex{
+    display: flex;
+}
+.blogitem{
+
+    font-size: large;
+    margin: 20px;
+
+}
+.blogitem p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+ 
+.accademy{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.accademy h2{
+    margin-top: 50px;
+    color: rgb(150, 63, 23);
+    /* margin-bottom: 15px; */
+}
+.data{
+    padding: 25px;
+}
+.data h3{
+    color: green;
+}
+.data p{
+    color: rgb(100, 95, 95);
+    padding: 5px;
+}
+.skillitems{ 
+    display:flex;
+    align-items: center;
+
+}
+.skill{
+    width: 260px;
+    height: 6px;
+    background-color: green;
+    border: 2px solid green;
+}
+.infocontainer{
+    display: flex;
+    margin-left: 50px;
+}
+.ce{
+    margin-left: 35%;
+}
+.hundred{
+    width: 265px;
+}
+.fifty{
+    width: 125px;
+}
+.t7{
+    width: 200px;
+}
+.line{
+    width:35px;
+    margin: 5px;
+    height: 3px;
+    background-color: rgb(26, 24, 24);
+}
+.cross{
+    font-size: 30px;
+    margin: 5px;
+    left: 120px;
+    position: absolute;
+    cursor: pointer;
+   
+}
+.burger{
+    margin:11px 0px;
+    margin-left: -5px;
+    left:8px;
+    position: absolute;
+    cursor: pointer; 
+}
+.sidebargo{
+    transform: translate(-434px);
+    position:absolute;
+}
+
+.cb{
+    display: flex;
+}
+
+
+@media (max-width:900px){
+   
+    /* .sidebar{
+        transform: translate(-434px);
+        position:absolute;
+    } */
+    .main{
+        margin: 5px;
+    }
+    .devpic img{
+        display: none;
+    }
+}  
+@media( max-width:400px){
+    .infocontainer{
+        display: inline;
+    }
+    
+    .form-group input{
+        width: auto;
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
